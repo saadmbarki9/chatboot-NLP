@@ -1,0 +1,74 @@
+{"intents": [
+      {"tag": "greeting",
+       "patterns" : ["Hello" ,"Hi","Hey","What's up?"],
+       "responses":["Hello! sir","Hi there, How can i help you ?","Hello, what's your name?"],
+       "context": [""]
+      },
+      {"tag": "Name",
+       "patterns":["My name is", "Call me"],
+       "responses":["Nice to meet you","Tell me, how can i help you %1"],
+       "context": [""]
+      },
+      {"tag": "help",
+       "patterns":["i need your help", "can you help me"],
+       "responses":["Sure, my pleasure","Sure, about what ?"],
+       "context": [""]
+      },
+      {"tag": "understand",
+       "patterns":["i dont understand you", "i dont understand what you said","i didn't get what you said"],
+       "responses":["Can you be more specific please about what you already said, so i can answer your needs ","Well, can you clarify from your part as well ? so i can answer your needs","Sorry, i dont understand what you said before, can you specify please?"],
+       "context": [""]
+      },
+      {"tag": "orientation 1 year baccalaureate",
+       "patterns":["I'm a student and i need help getting my bearings","i need some assistance regarding my career choices","I am confused about my choices","I can't make decisions concerning my orientations","I need your advice concerning my orientations"],
+       "responses":["Sure, Be my guest. Let's start, which subject are you into ?","Sure thing, I will help you in the best way possible so that you can take the best decision for your future, What's your field of interest?","Let's make it simple, what do you like ?","What are you into?","Sure thing, tell me first about your interests"],
+       "context": [""]
+      },
+
+      {"tag":"division",
+            "patterns":["I love science","I'm into science","I like science","I love solving puzzles","Problem solving is my main interest"],
+            "responses":["Great. According to your interests, these are the only possible divisions to opt for : Mathematical sciences divisionExperimental sciences division and Physics sciences division Based on these options, Which one you prefer?"],
+            "context": [""]
+      },
+
+      {"tag":"School subjects",
+      "patterns":["I'm not sure which one i'd pick","Im still confused about choosing between these options","Im still unable to choose the one that is suited for me","Theyre all good for me but i cant choose the one that is convenient for me","Im facing a dilemma"],
+      "responses":["No need to be stressed. If you're into problem solving I'd advise you to pick the mathematical sciences division, It includes a wide variety of scientific subjects including the ones in the physics division.Though it's known to be hard and challenging, it will sharpen your skills and improve your logical thinking, which as a result, makes you do great in other science related subjects as well. Also, it offers you the possibility to change your orientations and to opt for other divisions in the next year, which isn't the case for these last. If you're a little bit specific about your choice and you want to play the safe card, i'd recommand you to opt for physics sciences division. Otherwise if you're into biology or medecine , then experimental division is your best choice.\n Nonetheless, Mathematics sciences is better options wise and has a promising prospect. Plus, in the next year, you'll be subjected to choose again between option A or B(Mathematics sciences division), each according to your preference and your area of interest."],
+      "context":[""]
+      },
+
+      {"tag":"prospects",
+      "patterns":["What are these prospects?"],
+      "responses":["Engineering whether it be chemical,mechanical,civil,computer science,electrical .... / made a career in mathematical sciences/Data scientist/Statistician" ],
+      "context": [""]
+
+      },
+      {"tag":"choose",
+      "patterns":["oh okay so how can i choose between mathematics sciences A and B?","is there any specific thing to choose between mathematics division A or B?","Could you provide some informations about option A and B in the mathematics division?"],
+      "responses":["Do you like life and earth sciences as a subject in division of mathematics sciences?" , "Do you like engineering sciences as a subject in division of mathematics sciences?"],
+      "context": [""]
+
+      },
+      {"tag":"final decision",
+      "patterns":["i like enginnering sciences because its similar to many theory in physics and math"],
+      "responses":["i highly recommand it to you because it will help you to understand many things that you will face in the future","engineering sciences is more realistic and serious"],
+      "context": [""]
+      },
+
+      {"tag":"Thanks",
+      "patterns":["Thanks a lot","thank you","That's very helpful thank you very much"],
+      "responses":["anytime!","you're welcome","welcome!"],
+      "context": [""]
+
+      },
+      {"tag":"Bye",
+      "patterns":["See you later","Bye","Take care!","Good bye", "Have a good day", "I'm leaving", "See you soon"],
+      "responses":["Goodbye","Talk to you later", "We had a good conversation, Take care", "See you next time"],
+      "context": [""]
+      }
+   ]
+ }
+
+
+
+
